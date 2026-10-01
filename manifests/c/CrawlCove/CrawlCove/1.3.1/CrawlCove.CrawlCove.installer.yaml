@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+PackageIdentifier: CrawlCove.CrawlCove
+PackageVersion: 1.3.1
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+Scope: user
+InstallModes:
+  - interactive
+  - silent
+  - silentWithProgress
+UpgradeBehavior: install
+ReleaseDate: 2026-09-30
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://crawlcove.com/updates/Crawl-Cove-1.3.1-Setup.exe
+    InstallerSha256: 5C8EC229ADBD2B9C9A0AB4B18520A47F90178CA0A6FD47BFE3AE07475456CA3A
+ManifestType: installer
+ManifestVersion: 1.12.0
